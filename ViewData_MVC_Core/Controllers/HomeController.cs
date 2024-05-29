@@ -18,7 +18,11 @@ namespace ViewData_MVC_Core.Controllers
         {
             _logger = logger;
         }
-
+        /// <summary>
+        /// ViewData["Message"]
+        /// 2024/05/29
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Index()
         {
             ViewData["Message"] = "Hello World!";
